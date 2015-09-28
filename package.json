@@ -1,0 +1,36 @@
+{
+  "name": "constantina",
+  "version": "0.0.0",
+  "description": "Recursive, namespaced, key-mirror without `foo: null`.",
+  "main": "es5/index.js",
+  "scripts": {
+    "es5": "shjs scripts/clean.js; babel index.es6 --out-file es5/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/constantina.git"
+  },
+  "author": "sterpe <srterpe@gmail.com> (https://github.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/constantina/issues"
+  },
+  "homepage": "https://github.com/sterpe/constantina#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-jest": "^5.3.0",
+    "jest-cli": "^0.5.8",
+    "shelljs": "^0.5.3"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "keywords": [
+    "recursive",
+    "namespace",
+    "keymirror",
+    "key",
+    "mirror"
+  ]
+}
